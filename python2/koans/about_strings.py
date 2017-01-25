@@ -8,15 +8,15 @@ class AboutStrings(Koan):
 
     def test_double_quoted_strings_are_strings(self):
         string = "Hello, world."
-        self.assertEqual(__, isinstance(string, basestring))
+        self.assertEqual(True, isinstance(string, basestring))
 
     def test_single_quoted_strings_are_also_strings(self):
         string = 'Goodbye, world.'
-        self.assertEqual(__, isinstance(string, basestring))
+        self.assertEqual(True, isinstance(string, basestring))
 
     def test_triple_quote_strings_are_also_strings(self):
         string = """Howdy, world!"""
-        self.assertEqual(__, isinstance(string, basestring))
+        self.assertEqual(True, isinstance(string, basestring))
 
     def test_triple_single_quotes_work_too(self):
         string = '''Bonjour tout le monde!'''
